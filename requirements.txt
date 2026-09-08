@@ -1,0 +1,12 @@
+# Derived from the actual imports in src/ (2026-09-08).
+numpy==2.4.6
+scipy==1.17.1
+torch==2.5.1
+scikit-learn==1.8.0
+matplotlib==3.11.0
+nibabel==5.4.2
+neuromaps==0.0.7
+imageio-ffmpeg==0.6.0
+
+# cortex_mae is CortexMAE-F itself: not on PyPI, install it separately from
+# its own repository (see README) and its own licence. Not pinned here.

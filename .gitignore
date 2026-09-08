@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+
+# HuggingFace / model cache (CortexMAE weights — own licence, never redistribute)
+hf_cache/
+
+# Cluster job logs
+*.out
+*.err
+
+# Local environment config — cluster paths and a collaborator's account, never commit
+env.sh
+env.sh.save
+
+# Data and pipeline-derived artefacts (fMRI, latents, indices) — see CLAUDE.md.
+# manifest/ in particular embeds absolute paths under a collaborator's account.
+manifest/
+*.npz
+*.nii
+*.nii.gz
+*.dlabel.nii
+*.dtseries.nii
+
+# Public atlas — excluded here, fetched via the README instructions instead
+atlases/
+
+# OS / editor
+.DS_Store
+*.swp
